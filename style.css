@@ -1,0 +1,389 @@
+/* index styles */
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.main-container{
+    color: #272726;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading-container{
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    margin-top: -10px;
+    align-items: center;
+    border-bottom: 1px solid white;
+    background-color: #3434eb;
+}
+
+.details-container{
+    margin-top: 25px;
+    width: 50%;
+    border: #575654 1px solid;
+    color: #272726;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    padding-bottom: 25px;
+}
+
+.index_email {
+    text-decoration: none;
+    color:#272726;
+}
+
+.statement-container{
+    margin: 40px;
+    color: #3434eb;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 1px #575654 solid;
+}
+
+.links-container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+}
+
+.links-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.links-container a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.link-signup{
+    background-color: #3434eb;
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    box-shadow: #575654 5px 5px 5px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.link-login{
+    background-color: #3434eb;
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    box-shadow: #575654 5px 5px 5px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.link-about{
+    background-color: #3434eb;
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    box-shadow: #575654 5px 5px 5px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+/* friendlist styles */
+
+.links-container-friendlist {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border-top: black 1px solid;
+    margin-top: 5%;
+}
+
+.links-container-friendlist a {
+    color: white;
+    text-decoration: none;
+}
+
+.links-container-friendlist a:hover {
+    color: white;
+}
+
+.link-friendlist-container {
+    margin: 5% 0;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3434eb;
+    box-shadow: #575654 5px 5px 5px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.mysql-errs p {
+    color: red;
+}
+
+.friendlist-page-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0 150px 40px 150px;
+    align-items: center;
+    border-bottom: 1px solid #8e8d8a;
+    background-color: #3434eb;
+}
+
+.friendlist-page-body {
+    width: 50%;
+}
+
+/* about page styles */
+
+.aboutpage-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0 150px 40px 150px;
+    align-items: center;
+    border-bottom: 1px solid #8e8d8a;
+    background-color: #3434eb;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 100px;
+    border-bottom: 1px solid #8e8d8a;
+    color: #575654;
+}
+
+.answers {
+    color: #e85a4f;
+}
+
+.aboutpage-links-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.scrennshots-container img {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.aboutpage-links {
+    border-radius: 20px;
+    padding: 15px;
+    justify-content: center;
+    background-color: #3434eb;
+    box-shadow: #575654 5px 5px 5px;
+}
+
+.aboutpage-links a {
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+
+.aboutpage-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* friendadd styles */
+.friendadd-page-body {
+    width: 50%;
+}
+
+.friendadd-page-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0 150px 40px 150px;
+    align-items: center;
+    border-bottom: 1px solid #8e8d8a;
+    background-color: #3434eb;
+}
+
+.friendadd-links-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border-top: black 1px solid;
+    margin-top: 5%;
+}
+
+.link-friendadd a {
+    color: white;
+    text-decoration: none;
+}
+
+.link-friendadd a:hover {
+    color: white;
+}
+
+.link-friendadd {
+    margin: 5% 0;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3434eb;
+    box-shadow: #575654 5px 5px 5px;
+    border-radius: 20px;
+    padding: 15px 0;
+}
+
+table {
+    width: 100%;
+}
+
+.table a {
+    text-decoration: none;
+}
+
+td {
+    text-align: center;
+}
+
+/* signupform styles */
+
+.signupform-errors {
+    width: 35%;
+}
+
+.signupform-errors ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupform-errors li {
+    color: red;
+}
+
+.signupform-errors p {
+    color: green;
+}
+
+.signupform-page-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0 150px 40px 150px;
+    align-items: center;
+    border-bottom: 1px solid #8e8d8a;
+    background-color: #3434eb;
+}
+
+.links-container-signupform {
+    margin: 0 0 40px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border-top: black 1px solid;
+}
+
+.signupform-link-home-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.signupform-link-home-container a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.signupform-link-home-container {
+    margin-top: 15px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: #3434eb;
+    box-shadow: #575654 5px 5px 5px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+/* loginForm styles */
+
+.loginform-errors {
+    width: 35%;
+}
+
+.loginform-errors ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginform-errors li {
+    color: red;
+}
+
+.loginform-page-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0 150px 40px 150px;
+    align-items: center;
+    border-bottom: 1px solid #8e8d8a;
+    background-color: #3434eb;  
+}
+
+.links-container-loginform {
+    margin-top: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border-top: black 1px solid;
+}
+
+.loginform-link-home-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.loginform-link-home-container a:hover {
+    color: white;
+}
+
+.loginform-link-home-container {
+    margin-top: 15px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: #3434eb;
+    box-shadow: #575654 5px 5px 5px;
+    border-radius: 20px;
+    padding: 15px;
+}
